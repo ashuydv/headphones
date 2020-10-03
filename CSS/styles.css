@@ -236,10 +236,11 @@ img{
 }
 
 
-@media(max-width:700px){
+@media(max-width:576px){
   .section-a .container{
     grid-template-columns:1fr;
     text-align: center;
+    padding-bottom: 1rem;
   }
   
   .section-a .container div:first-child{
@@ -294,4 +295,24 @@ img{
   .footer div:nth-child(3){
     display: none;
   }
+}
+@media(max-width:1024px){
+  .section-a{
+  padding-top: 2rem 0;
+}
+.section-a .container{
+  display:grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-gap: 3rem;
+  align-items: center;
+  justify-content: center;
+}
+.section-a h1{
+  font-size: 4rem;
+  color: var(--primary);
+}
+.section-a p{
+  margin: 1rem 0;
+}
+
 }
