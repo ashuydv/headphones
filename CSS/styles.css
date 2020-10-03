@@ -219,7 +219,7 @@ img{
 }
 
 
-@media(max-width:700px){
+@media(min-width:700px){
   .section-a .container{
     grid-template-columns:1fr;
     text-align: center;
@@ -266,5 +266,10 @@ img{
   .footer div:nth-child(2),
   .footer div:nth-child(3){
     display: none;
+  }
+  @media(min-width:1024px){
+    .section-a{
+      padding-top: 2rem 0;
+    }
   }
 }
