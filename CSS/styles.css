@@ -231,6 +231,9 @@ img{
   .section-a .container div:last-child{
     order:-1;
   }
+  .section-a button{
+    padding-bottom: 1rem;
+  }
   .section-a img{
     width: 80%;
     margin: auto;
